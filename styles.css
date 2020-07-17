@@ -1,3 +1,7 @@
+body, a, p {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
 
 ul{
     list-style-type: none;
@@ -6,6 +10,7 @@ li a{
     display: block;
     text-decoration: none;
     color: #000000;
+    text-align: center;
 }
 li a:hover{
     text-decoration: underline;
@@ -14,13 +19,13 @@ li a:hover{
     height:20px;
     width:20px;
     padding-top:7px;
+    margin-top:-9px
 }
 .left{
     float:left;
 }
 .right{
     float:right;
-    margin-right:15px
 }
 .signin{
     background-color: #4285f4;
@@ -29,6 +34,7 @@ li a:hover{
     border:none;
     border-radius: 2px;
     padding: 5px 10px 5px 10px;
+    margin:-7px
 }
 a{
     display:block;
@@ -37,9 +43,11 @@ a{
 }
 .topnav{
     text-decoration: none;
-    width: 100vw;
+    width: 100%;
     display:block;
     height:50px;
+    padding-right:20px;
+
 }
 main{
     margin-top: 100px;
@@ -64,6 +72,7 @@ main{
 .buttons{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 .searchbutton{
     margin: 10px 5px 10px 5px;
